@@ -9,17 +9,11 @@ function compChoicing(){
     return los
 }
 const wybory = ["papier", "nożyce", "kamień"]
-// computerChoice = wybory[compChoicing()-1]
-// console.log(computerChoice)
 
-// document.getElementById("kompWybor").innerHTML = computerChoice
 
 possibleChoices = document.querySelectorAll("button")
 console.log(possibleChoices)
-// possibleChoices.forEach(wybor => wybor.addEventListener('click',userChoice = wybor.target.id)
-//     {
-    
-// });
+
 
 possibleChoices.forEach(wybor => {
     wybor.addEventListener('click', (e) =>{
